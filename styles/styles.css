@@ -1,0 +1,302 @@
+/* Header */
+header {
+  background: #363336;
+  padding: 24px 0;
+}
+
+.nav__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.nav__contactInfo {
+  text-align-last: right;
+}
+
+.nav__links-wrapper {
+  display: flex;
+  gap: 16px;
+}
+
+.nav__links {
+  opacity: 0.9;
+  transition: 0.3s ease;
+}
+
+.nav__links:hover {
+  opacity: 1;
+}
+
+/* Offer */
+
+.offer {
+  background: #363336;
+  color: #fff;
+  padding: 80px 0;
+}
+
+.offer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.offer__info {
+  max-width: 505px;
+}
+
+.offer__subtitle {
+  margin: 16px 0 24px;
+}
+
+.offer__image {
+  border-radius: 0 40px 0 40px;
+}
+
+.offer__button-wrapper {
+  display: flex;
+  gap: 24px;
+}
+
+/* Services */
+
+.services {
+  margin: 120px 0;
+}
+
+.services__block {
+  transition: 0.3s ease;
+  padding: 24px;
+  border-radius: 16px 0 16px 0;
+}
+
+.services__block:hover {
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.services__block-head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.services__wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.services__block-subtitle {
+  margin: 16px 0 24px;
+}
+
+.services__button {
+  display: block;
+  max-width: 145px;
+}
+
+/* About */
+
+.about {
+  background: #363336;
+  color: #fff;
+  padding: 40px 0 80px;
+  margin: 120px 0;
+}
+
+.about__head {
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.about__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.about__subtitle {
+  margin: 16px 0 40px;
+}
+
+.about__stats {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.about__stats-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Staff */
+
+.staff {
+  margin: 120px 0;
+}
+
+.staff__wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  color: #fff;
+}
+
+.staff__block {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.staff__role {
+  margin: 8px 0 4px;
+}
+
+.staff__block::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -16px;
+  height: 120px;
+  width: 100%;
+  background: #363336;
+  z-index: -1;
+  border-radius: 16px 0 16px 0;
+}
+
+/* FAQ */
+
+.faq {
+  margin: 120px 0;
+}
+
+/* Core styles/functionality */
+.tab input {
+  position: absolute;
+  opacity: 0;
+  z-index: -1;
+}
+.tab__content {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.35s;
+  border-bottom: 1px solid #000;
+}
+.tab input:checked ~ .tab__content {
+  max-height: 10rem;
+}
+
+/* Visual styles */
+.accordion {
+  overflow: hidden;
+}
+.tab__label,
+.tab__close {
+  display: flex;
+  color: #000;
+  cursor: pointer;
+}
+.tab__label {
+  justify-content: space-between;
+  padding: 16px 0;
+  font-size: 20px;
+  font-family: 'Comfortaa', sans-serif;
+}
+.tab__label::after {
+  content: '\276F';
+  width: 1em;
+  height: 1em;
+  text-align: center;
+  transform: rotate(90deg);
+  transition: all 0.35s;
+}
+.tab input:checked + .tab__label::after {
+  transform: rotate(270deg);
+}
+.tab__content p {
+  margin: 0;
+  padding-bottom: 16px;
+}
+.tab__close {
+  justify-content: flex-end;
+  padding: 0.5rem 1rem;
+  font-size: 0.75rem;
+}
+
+/* Call */
+
+.call {
+  background: #363336;
+  padding: 80px 0;
+  margin-bottom: 1px;
+  text-align: center;
+  color: #fff;
+}
+
+.call__head {
+  margin-bottom: 80px;
+}
+
+.call__subtitle {
+  max-width: 430px;
+  margin: 0 auto;
+  margin-top: 8px;
+}
+
+.call__form-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.call__form-input {
+  background: none;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Montserrat', sans-serif;
+  border-bottom: 1px solid #fff;
+  height: 40px;
+  margin-bottom: 40px;
+}
+
+/* Footer */
+
+.footer {
+  background: #363336;
+  color: #fff;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 0 24px;
+}
+
+.footer__phoneLink {
+    display: block;
+}
+
+.footer__block {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer__icon {
+    margin-top: 8px;
+}
+
+.footer__line {
+    width: 100%;
+    height: 1px;
+    background: #fff;
+}
+
+.footer__copyright {
+    padding: 16px 0;
+    text-align: center;
+}
