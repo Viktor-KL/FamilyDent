@@ -50,7 +50,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Comfortaa', sans-serif;
+  font-family: 'Roboto Flex', sans-serif;
 }
 
 h1 {
@@ -91,7 +91,7 @@ h6 {
 
 .button-main {
   font-size: 16px;
-  font-family: 'Comfortaa', sans-serif;
+  font-family: 'Roboto Flex', sans-serif;
   color: #fff;
   background: #419d78;
   padding: 12px 24px;
@@ -106,7 +106,7 @@ h6 {
 
 .button-ghost {
   font-size: 16px;
-  font-family: 'Comfortaa', sans-serif;
+  font-family: 'Roboto Flex', sans-serif;
   color: #fff;
   border: 1px solid #fff;
   padding: 12px 24px;
