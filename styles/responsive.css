@@ -41,6 +41,10 @@
         display: none;
     }
 
+    .nav__burger {
+        display: block;
+    }
+
     h1 {
         font-size: 38px;
     }
@@ -149,6 +153,10 @@
 
     h3 {
         font-size: 28px;
+    }
+
+    .nav__mobile-wrapper {
+        margin-top: 16px;
     }
 
     .block-head-info {

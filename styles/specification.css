@@ -50,7 +50,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
@@ -59,12 +59,12 @@ h1 {
 
 h2 {
   font-size: 40px;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 h3 {
   font-size: 36px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 h4 {
@@ -74,7 +74,7 @@ h4 {
 
 h5 {
   font-size: 26px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 h6 {
@@ -91,7 +91,7 @@ h6 {
 
 .button-main {
   font-size: 16px;
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #fff;
   background: #419d78;
   padding: 12px 24px;
@@ -106,7 +106,7 @@ h6 {
 
 .button-ghost {
   font-size: 16px;
-  font-family: 'Roboto Flex', sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: #fff;
   border: 1px solid #fff;
   padding: 12px 24px;

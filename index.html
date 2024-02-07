@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:wght@300;400&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Montserrat:wght@300;400&family=Roboto:wght@100;300;400;500;700;900&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles/specification.css" />
@@ -36,10 +36,71 @@
               <p>familydent@mail.tj</p>
               <p>+9 239 845 849</p>
             </div>
+
+            <button class="nav__burger" id="burgerButton">
+              <img src="images/icons/burger-menu.svg" alt="menu" />
+            </button>
           </div>
         </div>
       </nav>
     </header>
+
+    <nav class="nav__mobile" id="navMobile" style="display: none">
+      <div class="container">
+        <div class="nav__mobile-head">
+          <img src="images/Logo.svg" alt="logo" />
+          <button id="closeMenuBtn" class="nav__mobile-close">
+            <img src="images/icons/close.svg" alt="close icon" />
+          </button>
+        </div>
+        <div class="nav__mobile-wrapper">
+          <ul class="nav__mobile-links-wrapper">
+            <li><a id="closeMenuBtn" href="/" class="nav__links">Home</a></li>
+            <li>
+              <a id="closeMenuBtn" href="/about" class="nav__links">About</a>
+            </li>
+            <li>
+              <a id="closeMenuBtn" href="/services" class="nav__links"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a id="closeMenuBtn" href="/specialists" class="nav__links"
+                >Specialists</a
+              >
+            </li>
+            <li>
+              <a id="closeMenuBtn" href="/contacts" class="nav__links"
+                >Contacts</a
+              >
+            </li>
+          </ul>
+
+          <div class="nav__mobile-contactInfo">
+            <p>8 Valamatzade Street</p>
+            <p>familydent@mail.tj</p>
+            <p>+9 239 845 849</p>
+          </div>
+
+          <div class="mav__mobile-socials">
+            <a target="_blank" href="/">
+              <img
+                src="images/icons/instagram.svg"
+                alt="instagram icon"
+                class="footer__icon"
+              />
+            </a>
+            <a target="_blank" href="/">
+              <img
+                src="images/icons/facebook.svg"
+                alt="facebook icon"
+                class="footer__icon"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
 
     <main>
       <!-- Offer -->
@@ -89,6 +150,7 @@
                 <img
                   src="images/services/orthodonia.svg"
                   alt="orthodonia icon"
+                  class="services__icon"
                 />
                 <h4>Orthodonia</h4>
               </div>
@@ -106,6 +168,7 @@
                 <img
                   src="images/services/prosthetics.svg"
                   alt="prosthetics icon"
+                  class="services__icon"
                 />
                 <h4>Prosthetics</h4>
               </div>
@@ -122,7 +185,11 @@
 
             <div class="services__block">
               <div class="services__block-head">
-                <img src="images/services/pediatric.svg" alt="pediatric icon" />
+                <img 
+                src="images/services/pediatric.svg" 
+                alt="pediatric icon" 
+                class="services__icon"
+                />
                 <h4>Pediatric</h4>
               </div>
               <p class="subtitle-dark services__block-subtitle">
@@ -139,6 +206,7 @@
                 <img
                   src="images/services/implantation.svg"
                   alt="implantation icon"
+                  class="services__icon"
                 />
                 <h4>Implantation</h4>
               </div>
@@ -158,6 +226,7 @@
                 <img
                   src="images/services/dentalSurge.svg"
                   alt="dentalSurgery icon"
+                  class="services__icon"
                 />
                 <h4>Dental surgery</h4>
               </div>
@@ -174,7 +243,11 @@
 
             <div class="services__block">
               <div class="services__block-head">
-                <img src="images/services/aesthetic.svg" alt="aesthetic icon" />
+                <img 
+                src="images/services/aesthetic.svg" 
+                alt="aesthetic icon" 
+                class="services__icon"
+                />
                 <h4>Aesthetic</h4>
               </div>
               <p class="subtitle-dark services__block-subtitle">
@@ -477,5 +550,7 @@
         </p>
       </div>
     </footer>
+
+    <script src="scripts/main.js"></script>
   </body>
 </html>
