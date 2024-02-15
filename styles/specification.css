@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 a {
@@ -97,6 +97,7 @@ h6 {
   padding: 12px 24px;
   border-radius: 16px 2px 16px 2px;
   transition: 0.3s ease;
+  text-align: center;
 }
 
 .button-main:hover {

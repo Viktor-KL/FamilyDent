@@ -99,7 +99,7 @@ header {
 }
 
 .offer__image {
-  border-radius: 0 40px 0 40px;
+  border-radius: 40px 0 40px 0;
 }
 
 .offer__button-wrapper {
@@ -280,7 +280,7 @@ header {
 
 /* Call */
 
-.call {
+.call, .action {
   background: #363336;
   padding: 80px 0;
   margin-bottom: 1px;
@@ -312,6 +312,13 @@ header {
   border-bottom: 1px solid #fff;
   height: 40px;
   margin-bottom: 40px;
+}
+
+/* Action */
+
+.action__subtitle {
+  max-width: 430px;
+  margin: 16px auto 40px;
 }
 
 /* Footer */

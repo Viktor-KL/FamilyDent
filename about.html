@@ -1,13 +1,319 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Family Dent | About</title>
-    <meta name="title" content="Family Dent - dentistry for whole family">
-    <meta name="description" content="Get know about our dentistry. Find out why we give the best services.">
-</head>
-<body>
-    
-</body>
+    <meta name="title" content="Family Dent - dentistry for whole family" />
+    <meta
+      name="description"
+      content="Get know about our dentistry. Find out why we give the best services."
+    />
+    <link rel="stylesheet" href="styles/specification.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+    <link rel="stylesheet" href="styles/about.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="container">
+          <div class="nav__wrapper">
+            <a href="/" class="nav__logo-link">
+              <img src="images/Logo.svg" alt="logo" class="logo" />
+            </a>
+
+            <ul class="nav__links-wrapper">
+              <li><a href="/" class="nav__links">Home</a></li>
+              <li><a href="/about.html" class="nav__links">About</a></li>
+              <li><a href="/services.html" class="nav__links">Services</a></li>
+              <li><a href="/specialists.html" class="nav__links">Specialists</a></li>
+              <li><a href="/contacts.html" class="nav__links">Contacts</a></li>
+            </ul>
+
+            <div class="nav__contactInfo">
+              <p>8 Valamatzade Street</p>
+              <p>familydent@mail.tj</p>
+              <p>+9 239 845 849</p>
+            </div>
+
+            <button class="nav__burger" id="burgerButton">
+              <img src="images/icons/burger-menu.svg" alt="menu" />
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <nav class="nav__mobile" id="navMobile" style="display: none">
+      <div class="container">
+        <div class="nav__mobile-head">
+          <img src="images/Logo.svg" alt="logo" />
+          <button id="closeMenuBtn" class="nav__mobile-close">
+            <img src="images/icons/close.svg" alt="close icon" />
+          </button>
+        </div>
+        <div class="nav__mobile-wrapper">
+          <ul class="nav__mobile-links-wrapper">
+            <li><a id="closeMenuBtn" href="/" class="nav__links">Home</a></li>
+            <li>
+              <a id="closeMenuBtn" href="/about.html" class="nav__links">About</a>
+            </li>
+            <li>
+              <a id="closeMenuBtn" href="/services.html" class="nav__links"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a id="closeMenuBtn" href="/specialists.html" class="nav__links"
+                >Specialists</a
+              >
+            </li>
+            <li>
+              <a id="closeMenuBtn" href="/contacts.html" class="nav__links"
+                >Contacts</a
+              >
+            </li>
+          </ul>
+
+          <div class="nav__mobile-contactInfo">
+            <p>8 Valamatzade Street</p>
+            <p>familydent@mail.tj</p>
+            <p>+9 239 845 849</p>
+          </div>
+
+          <div class="mav__mobile-socials">
+            <a target="_blank" href="/">
+              <img
+                src="images/icons/instagram.svg"
+                alt="instagram icon"
+                class="footer__icon"
+              />
+            </a>
+            <a target="_blank" href="/">
+              <img
+                src="images/icons/facebook.svg"
+                alt="facebook icon"
+                class="footer__icon"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main> 
+      <!-- Offer -->
+
+      <section class="offer">
+        <div class="container">
+          <div class="offer__wrapper">
+            <div class="offer__info">
+              <h1>Check more about our dentistry</h1>
+              <p class="subtitle-white offer__subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur.
+              </p>
+              <div class="offer__button-wrapper">
+                <a href="#gallerey" class="button-ghost">Learn More</a>
+              </div>
+            </div>
+
+            <div class="offer__image-wrapper">
+              <img
+                src="images/about/offerImage.png"
+                alt="dentistry image"
+                class="offer__image"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Gallery -->
+
+      <section id="gallery" class="gallery">
+        <div class="container">
+          <div class="gallery__head">
+            <h2>Gallery</h2>
+            <p class="subtitle-dark">Lorem ipsum dolor sit amet, consectetur</p>
+          </div>
+          <div class="gallery__wrapper">
+            <img
+              src="images/about/galleryBlock.png"
+              alt="gallery photo"
+              class="gallery__image"
+            />
+            <img
+              src="images/about/galleryBlock.png"
+              alt="gallery photo"
+              class="gallery__image"
+            />
+            <img
+              src="images/about/galleryBlock.png"
+              alt="gallery photo"
+              class="gallery__image"
+            />
+            <img
+              src="images/about/galleryBlock.png"
+              alt="gallery photo"
+              class="gallery__image"
+            />
+            <img
+              src="images/about/galleryBlock.png"
+              alt="gallery photo"
+              class="gallery__image"
+            />
+            <img
+              src="images/about/galleryBlock.png"
+              alt="gallery photo"
+              class="gallery__image"
+            />
+            <img
+              src="images/about/galleryBlock.png"
+              alt="gallery photo"
+              class="gallery__image"
+            />
+            <img
+              src="images/about/galleryBlock.png"
+              alt="gallery photo"
+              class="gallery__image"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Staff -->
+
+      <section class="staff">
+        <div class="container">
+          <div class="block-head">
+            <div class="block-head-info">
+              <h2>Our Specialists</h2>
+              <p class="subtitle-dark">
+                Lorem ipsum dolor sit amet, consectetur adipiscing
+              </p>
+            </div>
+            <a href="/specialists" class="button-link">Browse all</a>
+          </div>
+          <div class="staff__wrapper">
+            <div class="staff__block">
+              <img
+                src="images/specialists/Family Dent 320x480 1.png"
+                alt="Nurov Dyshlod"
+                class="staff__image"
+              />
+              <p class="subtitle-white staff__role">Head</p>
+              <h5 class="staff__block-title">Nurov Dyshlod</h5>
+            </div>
+
+            <div class="staff__block">
+              <img
+                src="images/specialists/IMG_0979-25-07-19-05-45-320x480 1.png"
+                alt="Urmanova Nigina"
+                class="staff__image"
+              />
+              <p class="subtitle-white staff__role">Therapist</p>
+              <h5 class="staff__block-title">Urmanova Nigina</h5>
+            </div>
+
+            <div class="staff__block">
+              <img
+                src="images/specialists/Vrach 5 320x480 1.png"
+                alt="Razakov Parviz "
+                class="staff__image"
+              />
+              <p class="subtitle-white staff__role">Therapist</p>
+              <h5 class="staff__block-title">Razakov Parviz</h5>
+            </div>
+
+            <div class="staff__block">
+              <img
+                src="images/specialists/Talabov Aziz Dentist 1.png"
+                alt="Talabov Aziz"
+                class="staff__image"
+              />
+              <p class="subtitle-white staff__role">Therapist</p>
+              <h5 class="staff__block-title">Talabov Aziz</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Action -->
+
+      <section class="action">
+        <div class="container">
+          <div class="action__wrapper">
+            <h2>Have some questions?</h2>
+            <p class="subtitle-white action__subtitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing dolor sit amet,
+              consectetur adipiscing
+            </p>
+            <a href="contacts.html" class="button-main">Ask Questions</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <a href="/" class="footer__logo-link">
+            <img src="images/Logo.svg" alt="logo" class="logo" />
+          </a>
+          <div class="footer__block">
+            <h6>Shedule</h6>
+            <p class="subtitle-white">Mon - Fri: 8:30 - 17:00</p>
+            <p class="subtitle-white">Mon - Fri: 8:30 - 15:00</p>
+            <p class="subtitle-white">Sunday: day off</p>
+          </div>
+          <div class="footer__block">
+            <h6>Contacts</h6>
+            <a href="tel:+992372222217" class="subtitle-white footer__phoneLink"
+              >+992 372 22 22 17</a
+            >
+            <a href="tel:+992988900001" class="subtitle-white footer__phoneLink"
+              >+992 988 90 00 01</a
+            >
+            <p class="subtitle-white">info@familydent.tj</p>
+          </div>
+          <div class="footer__block">
+            <h6>Address</h6>
+            <p class="subtitle-white">8 Valamatzade</p>
+            <p class="subtitle-white">Street, Dushanbe,</p>
+            <p class="subtitle-white">Tajikistan</p>
+          </div>
+          <div class="footer__socials-wrapper">
+            <h6>Socials</h6>
+            <a target="_blank" href="/">
+              <img
+                src="images/icons/instagram.svg"
+                alt="instagram icon"
+                class="footer__icon"
+              />
+            </a>
+            <a target="_blank" href="/">
+              <img
+                src="images/icons/facebook.svg"
+                alt="facebook icon"
+                class="footer__icon"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="footer__line"></div>
+        <p class="subtitle-white footer__copyright">
+          familydent© 2024 by
+          <a target="_blank" href="https://t.me/nonedevv">none.dev</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+  </body>
 </html>

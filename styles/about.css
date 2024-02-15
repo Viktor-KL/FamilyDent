@@ -1,0 +1,40 @@
+.gallery {
+  margin: 120px 0;
+}
+
+.gallery__head {
+  margin-bottom: 40px;
+}
+
+.gallery__image {
+  width: 24.9%;
+  transition: 0.3s ease;
+}
+
+.gallery__image:hover {
+  transform: scale(1.1);
+}
+
+.gallery__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1px;
+}
+
+@media screen and (max-width: 768px) {
+  .gallery__wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .gallery__image {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+    .gallery__wrapper {
+        grid-template-columns: repeat(3, 1fr);
+      }
+}

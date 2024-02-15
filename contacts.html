@@ -1,13 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Family Dent | Contacts</title>
-    <meta name="title" content="Family Dent - dentistry for whole family">
-    <meta name="description" content="Info for contacts us or send order for a consulation.">
-</head>
-<body>
-    
-</body>
+    <meta name="title" content="Family Dent - dentistry for whole family" />
+    <meta
+      name="description"
+      content="Info for contacts us or send order for a consulation."
+    />
+    <link rel="stylesheet" href="styles/specification.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
+    <link rel="stylesheet" href="styles/contacts.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <div class="container">
+          <div class="nav__wrapper">
+            <a href="/" class="nav__logo-link">
+              <img src="images/Logo.svg" alt="logo" class="logo" />
+            </a>
+
+            <ul class="nav__links-wrapper">
+              <li><a href="/" class="nav__links">Home</a></li>
+              <li><a href="/about.html" class="nav__links">About</a></li>
+              <li><a href="/services.html" class="nav__links">Services</a></li>
+              <li>
+                <a href="/specialists.html" class="nav__links">Specialists</a>
+              </li>
+              <li><a href="/contacts.html" class="nav__links">Contacts</a></li>
+            </ul>
+
+            <div class="nav__contactInfo">
+              <p>8 Valamatzade Street</p>
+              <p>familydent@mail.tj</p>
+              <p>+9 239 845 849</p>
+            </div>
+
+            <button class="nav__burger" id="burgerButton">
+              <img src="images/icons/burger-menu.svg" alt="menu" />
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <nav class="nav__mobile" id="navMobile" style="display: none">
+      <div class="container">
+        <div class="nav__mobile-head">
+          <img src="images/Logo.svg" alt="logo" />
+          <button id="closeMenuBtn" class="nav__mobile-close">
+            <img src="images/icons/close.svg" alt="close icon" />
+          </button>
+        </div>
+        <div class="nav__mobile-wrapper">
+          <ul class="nav__mobile-links-wrapper">
+            <li><a id="closeMenuBtn" href="/" class="nav__links">Home</a></li>
+            <li>
+              <a id="closeMenuBtn" href="/about.html" class="nav__links"
+                >About</a
+              >
+            </li>
+            <li>
+              <a id="closeMenuBtn" href="/services.html" class="nav__links"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a id="closeMenuBtn" href="/specialists.html" class="nav__links"
+                >Specialists</a
+              >
+            </li>
+            <li>
+              <a id="closeMenuBtn" href="/contacts.html" class="nav__links"
+                >Contacts</a
+              >
+            </li>
+          </ul>
+
+          <div class="nav__mobile-contactInfo">
+            <p>8 Valamatzade Street</p>
+            <p>familydent@mail.tj</p>
+            <p>+9 239 845 849</p>
+          </div>
+
+          <div class="mav__mobile-socials">
+            <a target="_blank" href="/">
+              <img
+                src="images/icons/instagram.svg"
+                alt="instagram icon"
+                class="footer__icon"
+              />
+            </a>
+            <a target="_blank" href="/">
+              <img
+                src="images/icons/facebook.svg"
+                alt="facebook icon"
+                class="footer__icon"
+              />
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <!-- Offer -->
+      <div class="contacts__offer">
+        <div class="container">
+          <div class="contacts__wrapper">
+            <h1>Info For Contact Us</h1>
+            <p class="subtitle-white contacts__subtitle">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <a href="#main" class="button-ghost">Lear More</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Map -->
+
+      <section class="contacts">
+        <div class="container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d24956.9828538748!2d68.77425004135048!3d38.565502292992896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s8%20valamatzade%20street%20!5e0!3m2!1sru!2sua!4v1707946533556!5m2!1sru!2sua"
+            style="border: 0"
+            width="100%"
+            height="300px"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class=""
+          ></iframe>
+
+          <form class="call__form">
+            <div class="call__form-wrapper contacts__form-wrapper">
+              <input
+                type="text"
+                placeholder="* Your name"
+                class="call__form-input contacts__form-input"
+              />
+              <input
+                type="text"
+                placeholder="* Your email"
+                class="call__form-input contacts__form-input"
+              />
+              <input
+                type="text"
+                placeholder="* Your phone"
+                class="call__form-input contacts__form-input"
+              />
+              <input
+                type="text"
+                placeholder="* Additionally"
+                class="call__form-input contacts__form-input"
+              />
+            </div>
+            <button class="button-main">Send Form</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <a href="/" class="footer__logo-link">
+            <img src="images/Logo.svg" alt="logo" class="logo" />
+          </a>
+          <div class="footer__block">
+            <h6>Shedule</h6>
+            <p class="subtitle-white">Mon - Fri: 8:30 - 17:00</p>
+            <p class="subtitle-white">Mon - Fri: 8:30 - 15:00</p>
+            <p class="subtitle-white">Sunday: day off</p>
+          </div>
+          <div class="footer__block">
+            <h6>Contacts</h6>
+            <a href="tel:+992372222217" class="subtitle-white footer__phoneLink"
+              >+992 372 22 22 17</a
+            >
+            <a href="tel:+992988900001" class="subtitle-white footer__phoneLink"
+              >+992 988 90 00 01</a
+            >
+            <p class="subtitle-white">info@familydent.tj</p>
+          </div>
+          <div class="footer__block">
+            <h6>Address</h6>
+            <p class="subtitle-white">8 Valamatzade</p>
+            <p class="subtitle-white">Street, Dushanbe,</p>
+            <p class="subtitle-white">Tajikistan</p>
+          </div>
+          <div class="footer__socials-wrapper">
+            <h6>Socials</h6>
+            <a target="_blank" href="/">
+              <img
+                src="images/icons/instagram.svg"
+                alt="instagram icon"
+                class="footer__icon"
+              />
+            </a>
+            <a target="_blank" href="/">
+              <img
+                src="images/icons/facebook.svg"
+                alt="facebook icon"
+                class="footer__icon"
+              />
+            </a>
+          </div>
+        </div>
+        <div class="footer__line"></div>
+        <p class="subtitle-white footer__copyright">
+          familydent© 2024 by
+          <a target="_blank" href="https://t.me/nonedevv">none.dev</a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+  </body>
 </html>
