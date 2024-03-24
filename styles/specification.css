@@ -85,7 +85,7 @@ h6 {
 .block-head {
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: center;
   margin-bottom: 80px;
 }
 

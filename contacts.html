@@ -24,17 +24,17 @@
             </a>
 
             <ul class="nav__links-wrapper">
-              <li><a href="/" class="nav__links">Home</a></li>
-              <li><a href="/about.html" class="nav__links">About</a></li>
-              <li><a href="/services.html" class="nav__links">Services</a></li>
+              <li><a href="/" class="nav__links">Главная</a></li>
+              <li><a href="/about.html" class="nav__links">Про нас</a></li>
+              <li><a href="/services.html" class="nav__links">Услуги</a></li>
               <li>
-                <a href="/specialists.html" class="nav__links">Specialists</a>
+                <a href="/specialists.html" class="nav__links">Специалисты</a>
               </li>
-              <li><a href="/contacts.html" class="nav__links">Contacts</a></li>
+              <li><a href="/contacts.html" class="nav__links">Контакты</a></li>
             </ul>
 
             <div class="nav__contactInfo">
-              <p>8 Valamatzade Street</p>
+              <p>Улица Валаматзаде, 8</p>
               <p>familydent@mail.tj</p>
               <p>+9 239 845 849</p>
             </div>
@@ -81,7 +81,7 @@
           </ul>
 
           <div class="nav__mobile-contactInfo">
-            <p>8 Valamatzade Street</p>
+            <p>Улица Валаматзаде, 8</p>
             <p>familydent@mail.tj</p>
             <p>+9 239 845 849</p>
           </div>
@@ -111,19 +111,19 @@
       <div class="contacts__offer">
         <div class="container">
           <div class="contacts__wrapper">
-            <h1>Info For Contact Us</h1>
+            <h1>Информация для связи с нами</h1>
             <p class="subtitle-white contacts__subtitle">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
-            <a href="#main" class="button-ghost">Lear More</a>
+            <a href="#main" class="button-ghost">Узнать больше</a>
           </div>
         </div>
       </div>
 
       <!-- Map -->
 
-      <section class="contacts">
+      <section id="main" class="contacts">
         <div class="container">
           <iframe
             src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d24956.9828538748!2d68.77425004135048!3d38.565502292992896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1s8%20valamatzade%20street%20!5e0!3m2!1sru!2sua!4v1707946533556!5m2!1sru!2sua"
@@ -136,30 +136,34 @@
             class=""
           ></iframe>
 
-          <form class="call__form">
+          <form class="call__form" action="send.php" method="post">
             <div class="call__form-wrapper contacts__form-wrapper">
               <input
                 type="text"
-                placeholder="* Your name"
+                name="name"
+                placeholder="* Ваше имя"
                 class="call__form-input contacts__form-input"
               />
               <input
                 type="text"
-                placeholder="* Your email"
+                name="email"
+                placeholder="* Ваша почта"
                 class="call__form-input contacts__form-input"
               />
               <input
                 type="text"
-                placeholder="* Your phone"
+                name="phone"
+                placeholder="* Ваш номер"
                 class="call__form-input contacts__form-input"
               />
               <input
                 type="text"
-                placeholder="* Additionally"
+                name="additionally"
+                placeholder="* Дополнительно"
                 class="call__form-input contacts__form-input"
               />
             </div>
-            <button class="button-main">Send Form</button>
+            <button type="submit" class="button-main">Отправить форму</button>
           </form>
         </div>
       </section>
@@ -172,13 +176,13 @@
             <img src="images/Logo.svg" alt="logo" class="logo" />
           </a>
           <div class="footer__block">
-            <h6>Shedule</h6>
-            <p class="subtitle-white">Mon - Fri: 8:30 - 17:00</p>
-            <p class="subtitle-white">Mon - Fri: 8:30 - 15:00</p>
-            <p class="subtitle-white">Sunday: day off</p>
+            <h6>Расписание</h6>
+            <p class="subtitle-white">Пн - Пт: 8:30 - 17:00</p>
+            <p class="subtitle-white">Сб: 8:30 - 15:00</p>
+            <p class="subtitle-white">Нд: выходной</p>
           </div>
           <div class="footer__block">
-            <h6>Contacts</h6>
+            <h6>Контакты</h6>
             <a href="tel:+992372222217" class="subtitle-white footer__phoneLink"
               >+992 372 22 22 17</a
             >
@@ -188,13 +192,13 @@
             <p class="subtitle-white">info@familydent.tj</p>
           </div>
           <div class="footer__block">
-            <h6>Address</h6>
-            <p class="subtitle-white">8 Valamatzade</p>
-            <p class="subtitle-white">Street, Dushanbe,</p>
-            <p class="subtitle-white">Tajikistan</p>
+            <h6>Адресс</h6>
+            <p class="subtitle-white">Валаматзаде, 8</p>
+            <p class="subtitle-white">Улица, Душанбе,</p>
+            <p class="subtitle-white">Таджикистан</p>
           </div>
           <div class="footer__socials-wrapper">
-            <h6>Socials</h6>
+            <h6>Соц. сети</h6>
             <a target="_blank" href="/">
               <img
                 src="images/icons/instagram.svg"

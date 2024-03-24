@@ -98,8 +98,14 @@ header {
   margin: 16px 0 24px;
 }
 
-.offer__image {
+.offer__image-wrapper {
   border-radius: 40px 0 40px 0;
+  background: url('/images/index/offerImage.jpg') no-repeat;
+  background-position: 0px -80px;
+  max-width: 460px;
+  width: 100%;
+  height: 400px;
+  background-size: cover;
 }
 
 .offer__button-wrapper {
@@ -137,6 +143,7 @@ header {
 
 .services__block-subtitle {
   margin: 16px 0 24px;
+  max-width: 560px;
 }
 
 .services__button {
@@ -179,9 +186,22 @@ header {
   gap: 8px;
 }
 
+.about__info-wrapper {
+  max-width: 60%;
+}
+
 .about__stats-wrapper {
   display: flex;
   justify-content: space-between;
+}
+
+.about__image-wrapper {
+  border-radius: 40px 0 40px 0;
+  background: url('/images/index/about.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 480px;
 }
 
 /* Staff */

@@ -6,6 +6,40 @@
   justify-items: center;
 }
 
+.spec__block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.block-head {
+  justify-content: center;
+}
+
+
+.spec__image-wrapper {
+  width: 30%;
+}
+
+.spec__image {
+  width: 100%;
+  border-radius: 16px 0 16px;
+}
+
+.spec__info {
+  width: 50%;
+}
+
+.spec__title {
+  font-weight: 500;
+}
+
+.spec__punkt {
+  opacity: .6;
+  margin-top: 8px;
+}
+
 @media screen and (max-width: 992px) {
   .staff__wrapper-full {
     grid-template-columns: repeat(3, 1fr);

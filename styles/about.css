@@ -13,6 +13,7 @@
 
 .gallery__image:hover {
   transform: scale(1.1);
+  z-index: 999;
 }
 
 .gallery__wrapper {
