@@ -108,6 +108,24 @@ header {
   background-size: cover;
 }
 
+.offer__image-about {
+  background: url('/images/about/offerImage.jpg') no-repeat;
+  background-position: 0px -225px;
+  background-size: cover;
+}
+
+.offer__image-services {
+  background: url('/images/services/services.jpg') no-repeat;
+  background-position: 0px -150px;
+  background-size: cover;
+}
+
+.offer__image-staff {
+  background: url('/images/specialists/staff.jpg') no-repeat;
+  background-position: 0px -190px;
+  background-size: cover;
+}
+
 .offer__button-wrapper {
   display: flex;
   gap: 24px;
@@ -237,6 +255,11 @@ header {
   background: #363336;
   z-index: -1;
   border-radius: 16px 0 16px 0;
+}
+
+.staff__image {
+  max-width: 180px;
+  border-radius: 16px;
 }
 
 /* FAQ */

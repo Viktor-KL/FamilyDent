@@ -50,6 +50,67 @@
           </div>
         </div>
       </nav>
+
+      <nav class="nav__mobile" id="navMobile" style="display: none">
+        <div class="container">
+          <div class="nav__mobile-head">
+            <img src="images/Logo.svg" alt="logo" />
+            <button id="closeMenuBtn" class="nav__mobile-close">
+              <img src="images/icons/close.svg" alt="close icon" />
+            </button>
+          </div>
+          <div class="nav__mobile-wrapper">
+            <ul class="nav__mobile-links-wrapper">
+              <li>
+                <a id="closeMenuBtn" href="/" class="nav__links">Главная</a>
+              </li>
+              <li>
+                <a id="closeMenuBtn" href="/about.html" class="nav__links"
+                  >Про нас</a
+                >
+              </li>
+              <li>
+                <a id="closeMenuBtn" href="/services.html" class="nav__links"
+                  >Услуги</a
+                >
+              </li>
+              <li>
+                <a id="closeMenuBtn" href="/specialists.html" class="nav__links"
+                  >Специалисты</a
+                >
+              </li>
+              <li>
+                <a id="closeMenuBtn" href="/contacts.html" class="nav__links"
+                  >Контакты</a
+                >
+              </li>
+            </ul>
+
+            <div class="nav__mobile-contactInfo">
+              <p>Улица Валаматзаде, 8</p>
+              <p>familydent@mail.tj</p>
+              <a href="tel:+992988900001">+992 988 90 00 01</a>
+            </div>
+
+            <div class="mav__mobile-socials">
+              <a target="_blank" href="/">
+                <img
+                  src="images/icons/instagram.svg"
+                  alt="instagram icon"
+                  class="footer__icon"
+                />
+              </a>
+              <a target="_blank" href="/">
+                <img
+                  src="images/icons/facebook.svg"
+                  alt="facebook icon"
+                  class="footer__icon"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <main>
@@ -79,7 +140,7 @@
 
       <section class="services">
         <div class="container">
-          <div class="block-head">
+          <div class="block-head block-head-services">
             <div class="block-head-info">
               <h2>Наши услуги</h2>
               <p class="subtitle-dark services__block-subtitle">
@@ -107,9 +168,7 @@
                 безопасно, безболезненно и комфортно. Большинство процедур
                 совершается за один визит.
               </p>
-              <a
-                href="/service-orthodonia.html"
-                class="button-main services__button"
+              <a href="/services.html" class="button-main services__button"
                 >Детальнее</a
               >
             </div>
@@ -128,9 +187,7 @@
                 клиники «FamilyDent», вы можете быть уверены, что ваш ребенок
                 выйдет от врача с улыбкой.
               </p>
-              <a
-                href="/service-pediatric.html"
-                class="button-main services__button"
+              <a href="/services.html" class="button-main services__button"
                 >Детальнее</a
               >
             </div>
@@ -149,9 +206,7 @@
                 операцию для зубов. Она позволяет значительно улучшить качество
                 и внешний вид зубов.
               </p>
-              <a
-                href="/service-aesthetic.html"
-                class="button-main services__button"
+              <a href="/services.html" class="button-main services__button"
                 >Детальнее</a
               >
             </div>
@@ -166,12 +221,11 @@
                 <h4>Имплантация</h4>
               </div>
               <p class="subtitle-dark services__block-subtitle">
-                Lorem ipsum dolor sit amet, consectetur adipiscing, consectetur
-                adipiscing, consectetur dolor amet
+                Имплантация зубов – надежный способ заместить отсутствующие
+                зубы. Современные технологии позволяют восстановить зубной ряд
+                при отсутствии как одного зуба, так и сразу нескольких.
               </p>
-              <a
-                href="/service-implantation.html"
-                class="button-main services__button"
+              <a href="/services.html" class="button-main services__button"
                 >Детальнее</a
               >
             </div>
@@ -191,9 +245,7 @@
                 съемными, так и несъемными. Отдельно следует выделить такую
                 группу протезов, как имплантаты.
               </p>
-              <a
-                href="/service-prosthetics.html"
-                class="button-main services__button"
+              <a href="/services.html" class="button-main services__button"
                 >Детальнее</a
               >
             </div>
@@ -213,9 +265,7 @@
                 и имплантация зубов, а также разнообразные эстетические операции
                 в пародонтологии
               </p>
-              <a
-                href="/service-dentalSurgery.html"
-                class="button-main services__button"
+              <a href="/services.html" class="button-main services__button"
                 >Детальнее</a
               >
             </div>
@@ -309,7 +359,7 @@
           <div class="staff__wrapper">
             <div class="staff__block">
               <img
-                src="images/specialists/Family Dent 320x480 1.png"
+                src="images/specialists/nurosDylshod.jpg"
                 alt="Nurov Dyshlod"
                 class="staff__image"
               />
@@ -319,32 +369,32 @@
 
             <div class="staff__block">
               <img
-                src="images/specialists/IMG_0979-25-07-19-05-45-320x480 1.png"
+                src="images/specialists/mahmudovHakim.jpg"
                 alt="Urmanova Nigina"
                 class="staff__image"
               />
               <p class="subtitle-white staff__role">Терапевт</p>
-              <h5 class="staff__block-title">Урманова Нигина</h5>
+              <h5 class="staff__block-title">Махмудов Хаким</h5>
             </div>
 
             <div class="staff__block">
               <img
-                src="images/specialists/Vrach 5 320x480 1.png"
+                src="images/specialists/usupovaEsuman.jpg"
                 alt="Razakov Parviz "
                 class="staff__image"
               />
               <p class="subtitle-white staff__role">Терапевт</p>
-              <h5 class="staff__block-title">Разаков Парвиз</h5>
+              <h5 class="staff__block-title">Юсупова Усуман</h5>
             </div>
 
             <div class="staff__block">
               <img
-                src="images/specialists/Talabov Aziz Dentist 1.png"
+                src="images/specialists/sobirovUlugbek.jpg"
                 alt="Talabov Aziz"
                 class="staff__image"
               />
               <p class="subtitle-white staff__role">Терапевт</p>
-              <h5 class="staff__block-title">Талабов Азиз</h5>
+              <h5 class="staff__block-title">Собиров Улугбек</h5>
             </div>
           </div>
         </div>

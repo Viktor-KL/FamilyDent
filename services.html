@@ -11,8 +11,8 @@
     />
     <link rel="stylesheet" href="styles/specification.css" />
     <link rel="stylesheet" href="styles/styles.css" />
-    <link rel="stylesheet" href="styles/responsive.css" />
     <link rel="stylesheet" href="styles/services.css" />
+    <link rel="stylesheet" href="styles/responsive.css" />
   </head>
   <body>
     <header>
@@ -57,25 +57,25 @@
         </div>
         <div class="nav__mobile-wrapper">
           <ul class="nav__mobile-links-wrapper">
-            <li><a id="closeMenuBtn" href="/" class="nav__links">Home</a></li>
+            <li><a id="closeMenuBtn" href="/" class="nav__links">Главная</a></li>
             <li>
               <a id="closeMenuBtn" href="/about.html" class="nav__links"
-                >About</a
+                >Про нас</a
               >
             </li>
             <li>
               <a id="closeMenuBtn" href="/services.html" class="nav__links"
-                >Services</a
+                >Услуги</a
               >
             </li>
             <li>
               <a id="closeMenuBtn" href="/specialists.html" class="nav__links"
-                >Specialists</a
+                >Специалисты</a
               >
             </li>
             <li>
               <a id="closeMenuBtn" href="/contacts.html" class="nav__links"
-                >Contacts</a
+                >Контакты</a
               >
             </li>
           </ul>
@@ -83,7 +83,7 @@
           <div class="nav__mobile-contactInfo">
             <p>Улица Валаматзаде, 8</p>
             <p>familydent@mail.tj</p>
-            <p>+9 239 845 849</p>
+            <a href="tel:+992988900001">+992 988 90 00 01</a>
           </div>
 
           <div class="mav__mobile-socials">
@@ -115,9 +115,7 @@
             <div class="offer__info">
               <h1>Лучшее обслуживание в Таджикистане</h1>
               <p class="subtitle-white offer__subtitle">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam.
+                Запишитесь прямо сейчас перейдя по ссылке ниже.
               </p>
               <div class="offer__button-wrapper">
                 <a href="contacts.html" class="button-main">Консультация</a>
@@ -125,23 +123,17 @@
               </div>
             </div>
 
-            <div class="offer__image-wrapper">
-              <img
-                src="images/about/offerImage.png"
-                alt="dentistry image"
-                class="offer__image"
-              />
-            </div>
+            <div class="offer__image-wrapper offer__image-services"></div>
           </div>
         </div>
       </section>
 
       <!-- Services -->
 
-      <section class="services">
+      <section id="services" class="services">
         <div class="container">
-          <div class="block-head">
-            <div class="block-head-info">
+          <div class="block-head block-head-services">
+            <div class="block-head-info block-head-info-services">
               <h2>Наши услуги</h2>
               <p class="subtitle-dark services__block-subtitle">
                 В FamilyDent мы уделяем первостепенное внимание здоровью и
@@ -152,8 +144,8 @@
               </p>
             </div>
           </div>
-          <div class="services__wrapper">
-            <div class="services__block">
+          <div class="services__wrapper services__wrapper-services">
+            <div class="services__block services__block-services">
               <div class="services__block-head">
                 <img
                   src="images/services/orthodonia.svg"
@@ -183,7 +175,9 @@
                 - Высокий уровень сервиса
               </p>
 
-              <a href="/contacts.html" class="button-main services__button services__punkt-button"
+              <a
+                href="/contacts.html"
+                class="button-main services__button services__punkt-button"
                 >Консультация</a
               >
             </div>
@@ -200,37 +194,28 @@
               <p class="subtitle-dark services__block-subtitle">
                 Осуществив запись на прием в отделение детской стоматологии
                 клиники «FamilyDent», вы можете быть уверены, что ваш ребенок
-                выйдет от врача с улыбкой.
+                выйдет от врача с улыбкой. Наши детские врачи-стоматологи – это
+                специалисты высокой квалификационной категории. Врач всегда
+                уделит время, необходимое ребенку для адаптации в кабинете,
+                особенно если это первый визит. Мягко и доброжелательно, в
+                игровой форме объяснит, что происходит во время лечения.
+              </p>
+              <p class="subtitle-dark services__block-subtitle">
+                Все стоматологические кабинеты в «FamilyDent» оборудованы
+                современной аппаратурой, лечение проводится с использованием
+                современных материалов и средств. Каждый врач работает с
+                ассистентом и манипуляции выполняются быстро и слаженно. Мы
+                применяем обезболивание с использованием безвредных, не
+                токсических лекарственных средств.
               </p>
               <a
                 href="/service-pediatric.html"
                 class="button-main services__button"
-                >Детальнее</a
+                >Консультация</a
               >
             </div>
 
-            <div class="services__block">
-              <div class="services__block-head">
-                <img
-                  src="images/services/aesthetic.svg"
-                  alt="aesthetic icon"
-                  class="services__icon"
-                />
-                <h4>Эстетичность</h4>
-              </div>
-              <p class="subtitle-dark services__block-subtitle">
-                Эстетическая стоматология представляет собой пластическую
-                операцию для зубов. Она позволяет значительно улучшить качество
-                и внешний вид зубов.
-              </p>
-              <a
-                href="/service-aesthetic.html"
-                class="button-main services__button"
-                >Детальнее</a
-              >
-            </div>
-
-            <div class="services__block">
+            <div class="services__block services__block-services">
               <div class="services__block-head">
                 <img
                   src="images/services/implantation.svg"
@@ -240,17 +225,65 @@
                 <h4>Имплантация</h4>
               </div>
               <p class="subtitle-dark services__block-subtitle">
-                Lorem ipsum dolor sit amet, consectetur adipiscing, consectetur
-                adipiscing, consectetur dolor amet
+                Имплантация зубов – надежный способ заместить отсутствующие
+                зубы, правильно распределить нагрузку при жевании, сохранить
+                эстетику улыбки и прочность соседних зубов. Современные
+                технологии позволяют восстановить зубной ряд при отсутствии как
+                одного зуба, так и сразу нескольких. Возможна комплексная
+                имплантация передних, нижних или верхних зубов.
+              </p>
+
+              <p class="services__punkt-title">Виды имплантации зубов</p>
+              <p class="subtitle-dark services__punkt">
+                - Классическая двухэтапная имплантация
+              </p>
+              <p class="subtitle-dark services__punkt">
+                - Одномоментная имплантация
+              </p>
+              <p class="subtitle-dark services__punkt">
+                - Отсроченная имплантация
+              </p>
+              <p class="subtitle-dark services__punkt">
+                - Имплантация с немедленной нагрузкой
               </p>
               <a
                 href="/service-implantation.html"
-                class="button-main services__button"
-                >Детальнее</a
+                class="button-main services__button services__punkt-button"
+                >Консультация</a
               >
             </div>
 
-            <div class="services__block">
+            <div class="services__block services__block-services">
+              <div class="services__block-head">
+                <img
+                  src="images/services/aesthetic.svg"
+                  alt="aesthetic icon"
+                  class="services__icon"
+                />
+                <h4>Эстетичность</h4>
+              </div>
+              <p class="subtitle-dark services__block-subtitle">
+                Можно сказать, что эстетическая стоматология представляет собой
+                пластическую операцию для зубов. Она давно приобрела большую
+                популярность на Западе, а сегодня становится все более
+                востребованной в нашей стране. Она позволяет значительно
+                улучшить качество и внешний вид зубов. Но должны сказать, стоят
+                услуги эстетической стоматологии весьма-весьма недешево.
+              </p>
+
+              <p class="subtitle-dark services__block-subtitle">
+                Достижения эстетической стоматологии основаны на самых
+                современных разработках ученых. Применяются высококачественные
+                инструменты и приборы.
+              </p>
+              <a
+                href="/service-aesthetic.html"
+                class="button-main services__button"
+                >Консультация</a
+              >
+            </div>
+
+            <div class="services__block services__block-services">
               <div class="services__block-head">
                 <img
                   src="images/services/prosthetics.svg"
@@ -265,14 +298,31 @@
                 съемными, так и несъемными. Отдельно следует выделить такую
                 группу протезов, как имплантаты.
               </p>
+
+              <p class="subtitle-dark services__block-subtitle">
+                Если от зуба остался практически один корень, то хорошим выходом
+                будет накладка или коронка. Проблему травмы — трещины или скола
+                — решают также коронки, а кроме того — виниры и люминиры. В
+                случаях, когда утрачен один зуб, врач, вероятнее всего,
+                посоветует имплантат или протез на микрозамках.
+              </p>
+
+              <p class="services__punkt-title">Разновидности протезирования</p>
+              <p class="subtitle-dark services__punkt">
+                - Протезирование с помощью коронок
+              </p>
+              <p class="subtitle-dark services__punkt">
+                - Мостовидное протезирование
+              </p>
+              <p class="subtitle-dark services__punkt">- Микропротезирование</p>
               <a
                 href="/service-prosthetics.html"
-                class="button-main services__button"
+                class="button-main services__button services__punkt-button"
                 >Детальнее</a
               >
             </div>
 
-            <div class="services__block">
+            <div class="services__block services__block-services">
               <div class="services__block-head">
                 <img
                   src="images/services/dentalSurge.svg"
@@ -282,14 +332,33 @@
                 <h4>Хирургическая</h4>
               </div>
               <p class="subtitle-dark services__block-subtitle">
-                Раздел стоматологии, практикующий такие методы лечения как:
-                операции по сохранению зубов, подсадка костной ткани, подготовка
-                и имплантация зубов, а также разнообразные эстетические операции
-                в пародонтологии
+                Хирургическая стоматология — раздел стоматологии, практикующий
+                такие методы лечения как: операции по сохранению зубов, подсадка
+                костной ткани, подготовка и имплантация зубов, а также
+                разнообразные эстетические операции в
+                пародонтологии.Хирургическая стоматология в своей практике
+                включает и удаление зубов. В случаях, когда лечение неэффективно
+                и удаление зуба неизбежно, стоматолог-хирург профессионально,
+                быстро и без болевых ощущений удалит необходимый зуб. Возможно и
+                удаление зубов мудрости, которые неправильно выросли и мешают.
+              </p>
+
+              <p class="services__punkt-title">
+                Хирургическая стоматология включает:
+              </p>
+              <p class="subtitle-dark services__punkt">- Имплантация</p>
+              <p class="subtitle-dark services__punkt">
+                - Зубосохраняющие процедуры
+              </p>
+              <p class="subtitle-dark services__punkt">
+                - Удаление зубов (частичное или полное удаление)
+              </p>
+              <p class="subtitle-dark services__punkt">
+                - Лечение заболеваний слюнных желез
               </p>
               <a
                 href="/service-dentalSurgery.html"
-                class="button-main services__button"
+                class="button-main services__button services__punkt-button"
                 >Детальнее</a
               >
             </div>
